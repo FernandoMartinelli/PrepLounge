@@ -3,6 +3,8 @@ require 'lib/db.php';
 require 'lib/facebook.php';
 require 'lib/fbconfig.php';
 
+// test one again!
+
 $user = $facebook->getUser();
 if ($user)
 {
