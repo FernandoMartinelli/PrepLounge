@@ -10,6 +10,8 @@ include_once('config/mysql-config.php');
 
 include('includes/global-functions.inc.php');
 
+// haha online
+
 $pageid=$_GET[pageid];
 
 $partnersall = 'All areas of interest';
