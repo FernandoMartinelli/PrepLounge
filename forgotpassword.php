@@ -9,6 +9,8 @@ if(isset($_SESSION[user_emailid]))
     $emailid=$_SESSION[user_emailid];
 }
 
+// changed line 12 online
+
 if($errormessage=='E22115')
 {
     $MessageIconPath="/images/error.jpg";
@@ -17,7 +19,7 @@ if($errormessage=='E22115')
 }
 
 
-
+// comment online to test
 
 ?>
 
