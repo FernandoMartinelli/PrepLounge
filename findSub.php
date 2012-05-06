@@ -1,7 +1,4 @@
 <?php 
-
-// testing findsub
-
 include_once('config/mysql-config.php');
 $t=$_GET[topic];
 $query="select * from $TABLE_CATEGORIES where parent_id='$t'";
