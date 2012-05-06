@@ -3,8 +3,8 @@
 // testing findsub
 
 include_once('config/mysql-config.php');
-$topic=$_GET[topic];
-$query="select * from $TABLE_CATEGORIES where parent_id='$topic'";
+$t=$_GET[topic];
+$query="select * from $TABLE_CATEGORIES where parent_id='$t'";
 $r=mysql_query($query);
 ?>
 <option value="0">Sub Area</option>
