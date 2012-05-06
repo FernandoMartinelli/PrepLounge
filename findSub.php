@@ -8,6 +8,5 @@ $r=mysql_query($query);
 
 <?php while($row=mysql_fetch_array($r)) {
 print( '<option value='.$row['cat_id'].'>'.$row['cat_title'].'</option>');
-
 } 
 ?>
